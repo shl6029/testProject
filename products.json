@@ -1,0 +1,38 @@
+[
+    {
+        "num": 1,
+        "title": "제임슨",
+        "price": 32000,
+        "img[src]": "./img/제임슨.jpeg"
+    },
+    {
+        "num": 2,
+        "title": "발베니12 더블우드",
+        "price": 99000,
+        "img[src]": "./img/발베니12.jpeg"
+    },
+    {
+        "num": 3,
+        "title": "맥켈란12 쉐리캐스크",
+        "price": 120000,
+        "img[src]": "./img/맥켈란12.jpeg"
+    },
+    {
+        "num": 4,
+        "title": "라가불린8",
+        "price": 65000,
+        "img[src]": "./img/라가불린8.webp"
+    },
+    {
+        "num": 5,
+        "title": "글렌드로낙12",
+        "price": 100000,
+        "img[src]": "./img/글렌드로낙12.jpeg"
+    },
+    {
+        "num": 6,
+        "title": "글렌모렌지 시그넷",
+        "price": 360000,
+        "img[src]": "./img/글렌모렌지시그넷.jpeg"
+    }
+]

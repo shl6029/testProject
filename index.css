@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h3, h4 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+button {
+    cursor: pointer;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 14px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#productList {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+#productList li {
+    list-style: none;
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    border-radius: 4px;
+}
+
+#productList img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.basketForm {
+    margin-top: 10px;
+}
+
+.basketForm p {
+    margin: 5px 0;
+}
+
+#selectedList {
+    width: 100%;
+    margin-top: 20px;
+    border-top: 2px solid #000;
+    padding-top: 10px;
+}
+
+#resultTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#resultTable th, #resultTable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#resultTable th {
+    background-color: #f4f4f4;
+}
+
+#resultTable tfoot td {
+    font-weight: bold;
+    text-align: right;
+}
+
+#productList img {
+    max-width: 100%;
+    max-height: 150px;
+    width: auto;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+#login-btn, #loadProductsBtn {
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    margin-left: 10px;
+}
+
+#login-btn {
+    right: 100px;
+}
+
+.basketBuyBtn {
+    background-color: #28a745;
+    color: #fff;
+    padding: 10px 15px;
+    margin-top: 10px;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.basketBuyBtn:hover {
+    background-color: #218838;
+}

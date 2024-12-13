@@ -1,0 +1,26 @@
+{
+    "user_id": "hyuck",
+    "baskets": [
+        {
+            "num": 1,
+            "title": "제임슨",
+            "cnt": 1,
+            "price": 32000,
+            "total": 32000
+        },
+        {
+            "num": 2,
+            "title": "발베니12 더블우드",
+            "cnt": 1,
+            "price": 99000,
+            "total": 99000
+        },
+        {
+            "num": 6,
+            "title": "글렌모렌지 시그넷",
+            "cnt": 1,
+            "price": 360000,
+            "total": 360000
+        }
+    ]
+}
